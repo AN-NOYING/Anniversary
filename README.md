@@ -88,6 +88,8 @@ const cdnUrl = "https://cdn.jsdelivr.net/gh/AN-NOYING/Anniversary/south-korea-an
 행정안전부 기준 53종의 기념일과 일부 공용 기념일이 작성되어 있는 json 파일입니다.
 
 ## javascript
+클라이언트 사이드에서 사용할 수 있지만, CDN의 경우 CORS 오류가 발생할 수 있습니다. 이 경우 자신의 서버에 업로드 후 사용하시거나 서버 사이드에서 해결해주세요.
+
 ```javascript
 document.addEventListener('DOMContentLoaded', () => {
   fetch("https://cdn.jsdelivr.net/gh/AN-NOYING/Anniversary/south-korea-anniversary.json")
