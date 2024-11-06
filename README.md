@@ -72,7 +72,7 @@
 |공정거래위원회|
 |산업통상자원부|
 
-# 예시
+# 사용법
 ## CDN
 ```javascript
 const cdnUrl = "https://cdn.jsdelivr.net/gh/AN-NOYING/Anniversary/south-korea-anniversary.json";
